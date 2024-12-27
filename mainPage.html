@@ -9,19 +9,36 @@
   <body>
     <nav>
       <div class="meetup__logo">
-        <img src="" alt="" />
+        <img src="assets/images/navbar/meetupNavbar.svg" alt="Meetup Logo" />
       </div>
       <div class="search__event">
-        <label for=""></label>
-        <input type="text" />
-        <label for=""></label>
-        <input type="text" />
+        <label for="search__left"></label>
+        <input
+          type="search"
+          id="search__left"
+          name="query"
+          placeholder="Search events"
+        />
+        <label for="search__right"></label>
+        <input
+          type="search"
+          id="search__right"
+          name="location-search"
+          placeholder="Search Location"
+        />
       </div>
       <div class="location__search"></div>
-      <div class="language__selection"></div>
+      <label for="language__selector"
+        ><img
+          src="assets/icons/navbar/globeLangueageSelectorIcon.svg"
+          alt="Globe Icon for language selector"
+      /></label>
+      <select name="languageSelector" id="language__selector">
+        <option value="en">English</option>
+      </select>
       <div class="nav__buttons">
-        <button></button>
-        <button></button>
+        <button class="navbar__logIn--btn">Log in</button>
+        <button class="navbar__signUp--btn">Sign up</button>
       </div>
     </nav>
     <script src="scripts/script.js"></script>
