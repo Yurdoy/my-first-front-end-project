@@ -68,14 +68,6 @@ nav {
     font-size: 14px;
     line-height: 20px;
   }
-  #language__selector {
-    min-width: 49px;
-    min-height: 20px;
-    margin-right: 22px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-  }
   .navbar__logIn--btn {
     margin-right: 22px;
     min-width: 41px;
@@ -103,9 +95,9 @@ nav {
 main {
   .join__meetup--block {
     display: flex;
-    // align-items: center;
-    // width: 1196px;
-    // height: 461px;
+    width: 1196px;
+    height: 424px;
+
     .join__meetup--text-left {
       width: 600.61px;
       height: 104px;
@@ -120,7 +112,6 @@ main {
         height: 72px;
         margin: 24.5px 0px 0px 0px;
         padding-right: 25px;
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -143,6 +134,16 @@ main {
       width: 379px;
       height: 269px;
       margin: 69px 320px 0px 54px;
+    }
+  }
+  .events-near__grid {
+    width: 1196px;
+    height: 1441px;
+    margin-top: 24px;
+    .header__block {
+      display: flex;
+      margin-left: 158.34px;
+      gap: 8px;
     }
   }
 }
