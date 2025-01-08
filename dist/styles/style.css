@@ -155,12 +155,12 @@ main .join__meetup--block .meetup__picture--right {
 main .events-near__grid {
   width: 1196px;
   height: 1441px;
+  margin-left: 158px;
   margin-top: 24px;
 }
 main .events-near__grid .header__block {
   display: flex;
   align-items: center;
-  margin-left: 158.34px;
   gap: 8px;
 }
 main .events-near__grid h2 {
@@ -178,10 +178,52 @@ main .events-near__grid #header__block--events-near--search {
   border-radius: 8px;
   border: none;
   background: rgba(151, 202, 209, 0.1215686275);
+  position: relative;
 }
-main .events-near__grid label > img {
-  width: 14.67px;
-  height: 16.66px;
+main .events-near__grid a {
+  width: 105.61px;
+  height: 24px;
+  margin-left: 683px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.events-card__grid {
+  display: grid;
+}
+.events-card__grid .event-one__card img {
+  width: 272px;
+  height: 153px;
+  margin-top: 24px;
+}
+.events-card__grid .event-one__card h3 {
+  width: 256px;
+  height: 48px;
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.events-card__grid .event-one__card .event-type {
+  width: 256px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #707070;
+}
+.events-card__grid .event-one__card .event-date img {
+  width: 20px;
+  height: 20px;
+}
+.events-card__grid .event-one__card .event-date p {
+  width: 177.81px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
