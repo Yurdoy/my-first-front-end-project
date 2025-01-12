@@ -191,6 +191,8 @@ main .events-near__grid a {
 
 .events-card__grid {
   display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 36px;
   margin-top: 24px;
   width: 272px;
   height: 399px;
@@ -203,7 +205,7 @@ main .events-near__grid a {
   height: 153px;
 }
 .events-card__grid .event-one__card h3 {
-  width: 256px;
+  width: 230px;
   height: 48px;
   margin-top: 12px;
   font-size: 20px;
@@ -251,7 +253,7 @@ main .events-near__grid a {
   margin-top: 14px;
 }
 .events-card__grid .event-one__card .event-card__low-row .visitors__quantity p {
-  width: 55.36px;
+  width: 65px;
   height: 24px;
   font-size: 16px;
   font-weight: 400;
@@ -259,6 +261,7 @@ main .events-near__grid a {
   color: #212121;
   margin-right: 16px;
   margin-top: 12px;
+  margin-bottom: 74px;
 }
 .events-card__grid .event-one__card .event-card__low-row .tickets__price {
   display: flex;
