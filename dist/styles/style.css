@@ -267,6 +267,7 @@ main .events-near__grid a {
   width: 20px;
   height: 20px;
   margin-right: 2px;
+  margin-top: 14px;
 }
 .events-card__grid .event-one__card .event-card__low-row .tickets__price p {
   width: 33.34px;
@@ -275,6 +276,7 @@ main .events-near__grid a {
   font-weight: 400;
   line-height: 24px;
   color: #212121;
+  margin-top: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
