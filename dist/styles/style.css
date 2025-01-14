@@ -63,7 +63,7 @@ nav .location__search {
   min-height: 42px;
   min-width: 42px;
   margin-left: 0px;
-  margin-right: 471px;
+  margin-right: 440px;
   padding: 11px 11px 11px 11px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -98,7 +98,7 @@ nav .navbar__logIn--btn {
   border: none;
 }
 nav .navbar__signUp--btn {
-  margin-right: 50px;
+  margin-right: 49px;
   min-width: 83px;
   min-height: 36px;
   border-radius: 8px;
@@ -154,23 +154,23 @@ main .join__meetup--block .meetup__picture--right {
 }
 main .events-near__grid {
   width: 1196px;
-  height: 1441px;
+  height: 1141px;
   margin-left: 158px;
   margin-top: 24px;
 }
-main .events-near__grid .header__block {
+main .events-near__grid .block-of-cards .header__block {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-main .events-near__grid h2 {
+main .events-near__grid .block-of-cards .header__block h2 {
   width: 160px;
   height: 36px;
   font-size: 28px;
   font-weight: 600;
   line-height: 36px;
 }
-main .events-near__grid #header__block--events-near--search {
+main .events-near__grid .block-of-cards .header__block #header__block--events-near--search {
   width: 239.42px;
   height: 44px;
   padding: 11.67px 11.99px 8.33px 12px;
@@ -179,7 +179,7 @@ main .events-near__grid #header__block--events-near--search {
   background: rgba(151, 202, 209, 0.1215686275);
   position: relative;
 }
-main .events-near__grid a {
+main .events-near__grid .block-of-cards .header__block a {
   width: 105.61px;
   height: 24px;
   margin-left: 683px;
@@ -188,23 +188,22 @@ main .events-near__grid a {
   line-height: 24px;
   text-decoration: none;
 }
-
-.events-card__grid {
+main .events-near__grid .block-of-cards .events-card__grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 36px;
   margin-top: 24px;
+}
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card {
   width: 272px;
   height: 399px;
-}
-.events-card__grid .event-one__card {
   background: #ffffff;
 }
-.events-card__grid .event-one__card img {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card img {
   width: 272px;
   height: 153px;
 }
-.events-card__grid .event-one__card h3 {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card h3 {
   width: 230px;
   height: 48px;
   margin-top: 12px;
@@ -212,7 +211,7 @@ main .events-near__grid a {
   font-weight: 600;
   line-height: 24px;
 }
-.events-card__grid .event-one__card .event-type {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-type {
   width: 256px;
   margin-top: 8px;
   padding: 13px 0px 13px 0px;
@@ -221,15 +220,15 @@ main .events-near__grid a {
   line-height: 20px;
   color: #707070;
 }
-.events-card__grid .event-one__card .event-date {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-date {
   display: flex;
 }
-.events-card__grid .event-one__card .event-date img {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-date img {
   width: 20px;
   height: 20px;
   margin-top: 8px;
 }
-.events-card__grid .event-one__card .event-date p {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-date p {
   width: 177.81px;
   height: 20px;
   margin-top: 8px;
@@ -240,19 +239,19 @@ main .events-near__grid a {
   padding-bottom: 2px;
   position: relative;
 }
-.events-card__grid .event-one__card .event-card__low-row {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row {
   display: flex;
 }
-.events-card__grid .event-one__card .event-card__low-row .visitors__quantity {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .visitors__quantity {
   display: flex;
 }
-.events-card__grid .event-one__card .event-card__low-row .visitors__quantity img {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .visitors__quantity img {
   width: 20px;
   height: 20px;
   margin-right: 2px;
   margin-top: 14px;
 }
-.events-card__grid .event-one__card .event-card__low-row .visitors__quantity p {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .visitors__quantity p {
   width: 65px;
   height: 24px;
   font-size: 16px;
@@ -263,16 +262,16 @@ main .events-near__grid a {
   margin-top: 12px;
   margin-bottom: 74px;
 }
-.events-card__grid .event-one__card .event-card__low-row .tickets__price {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .tickets__price {
   display: flex;
 }
-.events-card__grid .event-one__card .event-card__low-row .tickets__price img {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .tickets__price img {
   width: 20px;
   height: 20px;
   margin-right: 2px;
   margin-top: 14px;
 }
-.events-card__grid .event-one__card .event-card__low-row .tickets__price p {
+main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .tickets__price p {
   width: 33.34px;
   height: 24px;
   font-size: 16px;
@@ -280,6 +279,26 @@ main .events-near__grid a {
   line-height: 24px;
   color: #212121;
   margin-top: 12px;
+}
+main .upcoming-online-events__grid .upcoming-events__header--block {
+  display: flex;
+}
+main .upcoming-online-events__grid .upcoming-events__header--block h2 {
+  width: 333.5px;
+  height: 36px;
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+main .upcoming-online-events__grid .upcoming-events__header--block a {
+  width: 105.61px;
+  height: 24px;
+  margin-left: 683px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -56,7 +56,7 @@ nav {
     min-height: 42px;
     min-width: 42px;
     margin-left: 0px;
-    margin-right: 471px;
+    margin-right: 440px;
     padding: 11px 11px 11px 11px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -91,7 +91,7 @@ nav {
     border: none;
   }
   .navbar__signUp--btn {
-    margin-right: 50px;
+    margin-right: 49px;
     min-width: 83px;
     min-height: 36px;
     border-radius: 8px;
@@ -150,129 +150,153 @@ main {
   }
   .events-near__grid {
     width: 1196px;
-    height: 1441px;
+    height: 1141px;
     margin-left: 158px;
     margin-top: 24px;
-    .header__block {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    h2 {
-      width: 160px;
-      height: 36px;
-      font-size: 28px;
-      font-weight: 600;
-      line-height: 36px;
-    }
-    #header__block--events-near--search {
-      width: 239.42px;
-      height: 44px;
-      padding: 11.67px 11.99px 8.33px 12px;
-      border-radius: 8px;
-      border: none;
-      background: #97cad11f;
-      position: relative;
-    }
-    a {
-      width: 105.61px;
-      height: 24px;
-      margin-left: 683px;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 24px;
-      text-decoration: none;
+    .block-of-cards {
+      .header__block {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        h2 {
+          width: 160px;
+          height: 36px;
+          font-size: 28px;
+          font-weight: 600;
+          line-height: 36px;
+        }
+        #header__block--events-near--search {
+          width: 239.42px;
+          height: 44px;
+          padding: 11.67px 11.99px 8.33px 12px;
+          border-radius: 8px;
+          border: none;
+          background: #97cad11f;
+          position: relative;
+        }
+        a {
+          width: 105.61px;
+          height: 24px;
+          margin-left: 683px;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          text-decoration: none;
+        }
+      }
+      .events-card__grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 36px;
+        margin-top: 24px;
+        .event-one__card {
+          width: 272px;
+          height: 399px;
+          background: #ffffff;
+          img {
+            width: 272px;
+            height: 153px;
+          }
+          h3 {
+            width: 230px;
+            height: 48px;
+            margin-top: 12px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+          }
+          .event-type {
+            width: 256px;
+            margin-top: 8px;
+            padding: 13px 0px 13px 0px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            color: #707070;
+          }
+          .event-date {
+            display: flex;
+            img {
+              width: 20px;
+              height: 20px;
+              margin-top: 8px;
+            }
+            p {
+              width: 177.81px;
+              height: 20px;
+              margin-top: 8px;
+              padding-left: 6px;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              padding-bottom: 2px;
+              position: relative;
+            }
+          }
+          .event-card__low-row {
+            display: flex;
+            .visitors__quantity {
+              display: flex;
+              img {
+                width: 20px;
+                height: 20px;
+                margin-right: 2px;
+                margin-top: 14px;
+              }
+              p {
+                width: 65px;
+                height: 24px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #212121;
+                margin-right: 16px;
+                margin-top: 12px;
+                margin-bottom: 74px;
+              }
+            }
+            .tickets__price {
+              display: flex;
+              img {
+                width: 20px;
+                height: 20px;
+                margin-right: 2px;
+                margin-top: 14px;
+              }
+              p {
+                width: 33.34px;
+                height: 24px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #212121;
+                margin-top: 12px;
+              }
+            }
+          }
+        }
+      }
     }
   }
-}
-.events-card__grid {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 36px;
-  margin-top: 24px;
-  width: 272px;
-  height: 399px;
-  .event-one__card {
-    background: #ffffff;
-    img {
-      width: 272px;
-      height: 153px;
-    }
-    h3 {
-      width: 230px;
-      height: 48px;
-      margin-top: 12px;
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 24px;
-    }
-    .event-type {
-      width: 256px;
-      margin-top: 8px;
-      padding: 13px 0px 13px 0px;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 20px;
-      color: #707070;
-    }
-    .event-date {
+  .upcoming-online-events__grid {
+    .upcoming-events__header--block {
       display: flex;
-      img {
-        width: 20px;
-        height: 20px;
-        margin-top: 8px;
+      h2 {
+        width: 333.5px;
+        height: 36px;
+        margin-top: 40px;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
       }
-      p {
-        width: 177.81px;
-        height: 20px;
-        margin-top: 8px;
-        padding-left: 6px;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px;
-        padding-bottom: 2px;
-        position: relative;
-      }
-    }
-    .event-card__low-row {
-      display: flex;
-      .visitors__quantity {
-        display: flex;
-        img {
-          width: 20px;
-          height: 20px;
-          margin-right: 2px;
-          margin-top: 14px;
-        }
-        p {
-          width: 65px;
-          height: 24px;
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 24px;
-          color: #212121;
-          margin-right: 16px;
-          margin-top: 12px;
-          margin-bottom: 74px;
-        }
-      }
-      .tickets__price {
-        display: flex;
-        img {
-          width: 20px;
-          height: 20px;
-          margin-right: 2px;
-          margin-top: 14px;
-        }
-        p {
-          width: 33.34px;
-          height: 24px;
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 24px;
-          color: #212121;
-          margin-top: 12px;
-        }
+      a {
+        width: 105.61px;
+        height: 24px;
+        margin-left: 683px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-decoration: none;
       }
     }
   }
