@@ -187,6 +187,7 @@ main .events-near__grid .block-of-cards .header__block a {
   font-weight: 500;
   line-height: 24px;
   text-decoration: none;
+  color: #00798a;
 }
 main .events-near__grid .block-of-cards .events-card__grid {
   display: grid;
@@ -286,7 +287,7 @@ main .upcoming-online-events__grid .upcoming-events__header--block {
 main .upcoming-online-events__grid .upcoming-events__header--block h2 {
   width: 333.5px;
   height: 36px;
-  margin-top: 40px;
+  margin: 40px 757px 0px 0px;
   font-size: 28px;
   font-weight: 600;
   line-height: 36px;
@@ -294,11 +295,12 @@ main .upcoming-online-events__grid .upcoming-events__header--block h2 {
 main .upcoming-online-events__grid .upcoming-events__header--block a {
   width: 105.61px;
   height: 24px;
-  margin-left: 683px;
+  margin-top: 50px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   text-decoration: none;
+  color: #00798a;
 }
 
 /*# sourceMappingURL=style.css.map */
