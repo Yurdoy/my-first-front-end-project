@@ -13,72 +13,60 @@ body {
   font-family: Roboto;
 }
 
-nav {
+header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-nav .meetup__logo {
-  margin: 15px 40px 15px 24px;
+header .header--left {
+  display: flex;
 }
-nav #search__left {
-  margin: 11px 0px 11px 0px;
-  max-width: 300px;
-  max-height: 42px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+header .header--left .meetup__logo {
+  padding: 15px 40px 15px 24px;
+}
+header .header--left #search__left {
+  margin-top: 11px;
+  border-radius: 8px 0px 0px 8px;
   border: 1px solid #d9d9d9;
-  position: relative;
-  padding: 13px 24px 13px 37px;
+  padding: 11px 54px 10px 37px;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   color: #707070;
   position: relative;
 }
-nav input[id=search__left] {
+header .header--left input[id=search__left] {
   background-image: url(/assets/icons/navbar/loupeSearchIcon.svg);
   background-repeat: no-repeat;
   background-position: 10px center;
 }
-nav #search__right {
-  margin: 11px 0px 11px -5px;
-  max-width: 254px;
-  max-height: 42px;
+header .header--left #search__right {
+  margin-top: 11px;
   border: 1px solid #d9d9d9;
   position: relative;
-  padding: 13px 24px 13px 17px;
+  padding: 11px 28px 10px 17px;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   color: #707070;
 }
-nav #search__right::placeholder {
+header .header--left #search__right::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 18.75px;
   color: #000000;
 }
-nav .location__search {
-  max-height: 42px;
-  max-width: 42px;
-  margin-left: 0px;
-  margin-right: 440px;
-  padding: 11px 11px 11px 11px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+header .header--left .location__search {
+  margin-top: 11px;
+  padding: 9px 12px 12px 12px;
+  border-radius: 0px 8px 8px 0px;
   background-color: #f65858;
   border: 1px solid #d9d9d9;
 }
-nav .location__search > img {
-  max-width: 20px;
-  max-height: 20px;
+header .header--right {
+  display: flex;
 }
-nav label > img {
-  max-width: 20px;
-  max-height: 20px;
-  margin-right: 4px;
-}
-nav #language__selector {
+header .header--right #language__selector {
   min-width: 49px;
   min-height: 20px;
   margin-right: 22px;
@@ -86,7 +74,7 @@ nav #language__selector {
   font-size: 14px;
   line-height: 20px;
 }
-nav .navbar__logIn--btn {
+header .header--right .navbar__logIn--btn {
   margin-right: 22px;
   max-width: 41px;
   max-height: 20px;
@@ -96,7 +84,7 @@ nav .navbar__logIn--btn {
   background-color: transparent;
   border: none;
 }
-nav .navbar__signUp--btn {
+header .header--right .navbar__signUp--btn {
   margin-right: 49px;
   min-width: 83px;
   min-height: 36px;

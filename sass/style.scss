@@ -7,99 +7,104 @@ body {
   font-family: Roboto;
 }
 
-nav {
+header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  .meetup__logo {
-    margin: 15px 40px 15px 24px;
+  .header--left {
+    display: flex;
+    .meetup__logo {
+      padding: 15px 40px 15px 24px;
+    }
+    #search__left {
+      margin-top: 11px;
+      // max-width: 300px;
+      // max-height: 42px;
+      border-radius: 8px 0px 0px 8px;
+      border: 1px solid #d9d9d9;
+      padding: 11px 54px 10px 37px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      color: #707070;
+      position: relative;
+    }
+    input[id="search__left"] {
+      background-image: url(/assets/icons/navbar/loupeSearchIcon.svg);
+      background-repeat: no-repeat;
+      background-position: 10px center;
+    }
+    #search__right {
+      margin-top: 11px;
+      // max-width: 254px;
+      // max-height: 42px;
+      border: 1px solid #d9d9d9;
+      position: relative;
+      padding: 11px 28px 10px 17px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      color: #707070;
+    }
+    #search__right::placeholder {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18.75px;
+      color: #000000;
+    }
+    .location__search {
+      // max-height: 42px;
+      // max-width: 42px;
+      margin-top: 11px;
+      // margin-left: 0px;
+      // margin-right: 440px;
+      padding: 9px 12px 12px 12px;
+      border-radius: 0px 8px 8px 0px;
+      background-color: #f65858;
+      border: 1px solid #d9d9d9;
+    }
+    // .location__search > img {
+    //   max-width: 20px;
+    //   max-height: 20px;
+    // }
+    // label > img {
+    //   max-width: 20px;
+    //   max-height: 20px;
+    //   margin-right: 4px;
+    // }
   }
-  #search__left {
-    margin: 11px 0px 11px 0px;
-    max-width: 300px;
-    max-height: 42px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    border: 1px solid #d9d9d9;
-    position: relative;
-    padding: 13px 24px 13px 37px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    color: #707070;
-    position: relative;
-  }
-  input[id="search__left"] {
-    background-image: url(/assets/icons/navbar/loupeSearchIcon.svg);
-    background-repeat: no-repeat;
-    background-position: 10px center;
-  }
-  #search__right {
-    margin: 11px 0px 11px -5px;
-    max-width: 254px;
-    max-height: 42px;
-    border: 1px solid #d9d9d9;
-    position: relative;
-    padding: 13px 24px 13px 17px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    color: #707070;
-  }
-  #search__right::placeholder {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18.75px;
-    color: #000000;
-  }
-  .location__search {
-    max-height: 42px;
-    max-width: 42px;
-    margin-left: 0px;
-    margin-right: 440px;
-    padding: 11px 11px 11px 11px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    background-color: #f65858;
-    border: 1px solid #d9d9d9;
-  }
-  .location__search > img {
-    max-width: 20px;
-    max-height: 20px;
-  }
-  label > img {
-    max-width: 20px;
-    max-height: 20px;
-    margin-right: 4px;
-  }
-  #language__selector {
-    min-width: 49px;
-    min-height: 20px;
-    margin-right: 22px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .navbar__logIn--btn {
-    margin-right: 22px;
-    max-width: 41px;
-    max-height: 20px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    background-color: transparent;
-    border: none;
-  }
-  .navbar__signUp--btn {
-    margin-right: 49px;
-    min-width: 83px;
-    min-height: 36px;
-    border-radius: 8px;
-    background-color: #00798a;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    border: none;
+  .header--right {
+    display: flex;
+    #language__selector {
+      min-width: 49px;
+      min-height: 20px;
+      margin-right: 22px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .navbar__logIn--btn {
+      margin-right: 22px;
+      max-width: 41px;
+      max-height: 20px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      background-color: transparent;
+      border: none;
+    }
+    .navbar__signUp--btn {
+      margin-right: 49px;
+      min-width: 83px;
+      min-height: 36px;
+      border-radius: 8px;
+      background-color: #00798a;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      border: none;
+    }
   }
 }
 
