@@ -68,16 +68,26 @@ header .header--left .search__event .location__search {
 header .header--right {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0px 49px 0px 0px;
+  gap: 22px;
 }
-header .header--right #language__selector {
+header .header--right .language--dropdown-selector {
+  display: flex;
+  gap: 4px;
+}
+header .header--right .language--dropdown-selector img {
+  width: 20px;
+  height: 20px;
+}
+header .header--right .language--dropdown-selector #language__selector {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
+  border: none;
+  background-color: transparent;
 }
 header .header--right .navbar__logIn--btn {
-  margin-right: 22px;
-  max-width: 41px;
-  max-height: 20px;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -85,9 +95,7 @@ header .header--right .navbar__logIn--btn {
   border: none;
 }
 header .header--right .navbar__signUp--btn {
-  margin-right: 49px;
-  min-width: 83px;
-  min-height: 36px;
+  padding: 8px 18px 8px 18px;
   border-radius: 8px;
   background-color: #00798a;
   color: #ffffff;
