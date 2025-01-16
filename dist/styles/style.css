@@ -20,13 +20,17 @@ header {
 }
 header .header--left {
   display: flex;
+  padding: 11px 0px 11px 0px;
+  gap: 40px;
 }
 header .header--left .meetup__logo {
-  padding: 15px 40px 15px 24px;
+  padding: 4px 0px 4px 24px;
+}
+header .header--left .search__event {
+  display: flex;
+  padding: 0px 0px 0px 0px;
 }
 header .header--left .search__event #search__left {
-  margin-top: 11px;
-  margin-right: -5px;
   border-radius: 8px 0px 0px 8px;
   border: 1px solid #d9d9d9;
   padding: 11px 54px 10px 37px;
@@ -42,11 +46,9 @@ header .header--left .search__event input[id=search__left] {
   background-position: 10px center;
 }
 header .header--left .search__event #search__right {
-  margin-top: 11px;
-  margin-right: -5px;
   border: 1px solid #d9d9d9;
   position: relative;
-  padding: 11px 28px 10px 17px;
+  padding: 11px 57px 10px 17px;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -59,17 +61,20 @@ header .header--left .search__event #search__right::placeholder {
   color: #000000;
 }
 header .header--left .search__event .location__search {
-  margin-top: 11px;
-  padding: 9px 12px 12px 12px;
+  padding: 10px 10px 10px 10px;
   border-radius: 0px 8px 8px 0px;
   background-color: #f65858;
   border: 1px solid #d9d9d9;
+}
+header .header--left .search__event .location__search img {
+  width: 20px;
+  height: 20px;
 }
 header .header--right {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 49px 0px 0px;
+  padding: 14px 49px 14px 0px;
   gap: 22px;
 }
 header .header--right .language--dropdown-selector {

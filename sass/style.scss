@@ -13,15 +13,15 @@ header {
   align-items: center;
   .header--left {
     display: flex;
+    padding: 11px 0px 11px 0px;
+    gap: 40px;
     .meetup__logo {
-      padding: 15px 40px 15px 24px;
+      padding: 4px 0px 4px 24px;
     }
     .search__event {
+      display: flex;
+      padding: 0px 0px 0px 0px;
       #search__left {
-        margin-top: 11px;
-        margin-right: -5px;
-        // max-width: 300px;
-        // max-height: 42px;
         border-radius: 8px 0px 0px 8px;
         border: 1px solid #d9d9d9;
         padding: 11px 54px 10px 37px;
@@ -37,13 +37,9 @@ header {
         background-position: 10px center;
       }
       #search__right {
-        margin-top: 11px;
-        margin-right: -5px;
-        // max-width: 254px;
-        // max-height: 42px;
         border: 1px solid #d9d9d9;
         position: relative;
-        padding: 11px 28px 10px 17px;
+        padding: 11px 57px 10px 17px;
         font-size: 16px;
         font-weight: 400;
         line-height: 19px;
@@ -56,33 +52,23 @@ header {
         color: #000000;
       }
       .location__search {
-        // max-height: 42px;
-        // max-width: 42px;
-        margin-top: 11px;
-        // margin-left: 0px;
-        // margin-right: 440px;
-        padding: 9px 12px 12px 12px;
+        // align-items: center;
+        padding: 10px 10px 10px 10px;
         border-radius: 0px 8px 8px 0px;
         background-color: #f65858;
         border: 1px solid #d9d9d9;
+        img {
+          width: 20px;
+          height: 20px;
+        }
       }
     }
-
-    // .location__search > img {
-    //   max-width: 20px;
-    //   max-height: 20px;
-    // }
-    // label > img {
-    //   max-width: 20px;
-    //   max-height: 20px;
-    //   margin-right: 4px;
-    // }
   }
   .header--right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 49px 0px 0px;
+    padding: 14px 49px 14px 0px;
     gap: 22px;
     .language--dropdown-selector {
       display: flex;
@@ -92,10 +78,6 @@ header {
         height: 20px;
       }
       #language__selector {
-        // min-width: 49px;
-        // min-height: 20px;
-        // margin-right: 22px;
-        // padding: 2px 2px 2px 2px;
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
@@ -104,9 +86,6 @@ header {
       }
     }
     .navbar__logIn--btn {
-      // margin-right: 22px;
-      // max-width: 41px;
-      // max-height: 20px;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px;
@@ -114,10 +93,7 @@ header {
       border: none;
     }
     .navbar__signUp--btn {
-      // margin-right: 49px;
       padding: 8px 18px 8px 18px;
-      // min-width: 83px;
-      // min-height: 36px;
       border-radius: 8px;
       background-color: #00798a;
       color: #ffffff;
