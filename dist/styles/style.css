@@ -24,8 +24,9 @@ header .header--left {
 header .header--left .meetup__logo {
   padding: 15px 40px 15px 24px;
 }
-header .header--left #search__left {
+header .header--left .search__event #search__left {
   margin-top: 11px;
+  margin-right: -5px;
   border-radius: 8px 0px 0px 8px;
   border: 1px solid #d9d9d9;
   padding: 11px 54px 10px 37px;
@@ -35,13 +36,14 @@ header .header--left #search__left {
   color: #707070;
   position: relative;
 }
-header .header--left input[id=search__left] {
+header .header--left .search__event input[id=search__left] {
   background-image: url(/assets/icons/navbar/loupeSearchIcon.svg);
   background-repeat: no-repeat;
   background-position: 10px center;
 }
-header .header--left #search__right {
+header .header--left .search__event #search__right {
   margin-top: 11px;
+  margin-right: -5px;
   border: 1px solid #d9d9d9;
   position: relative;
   padding: 11px 28px 10px 17px;
@@ -50,13 +52,13 @@ header .header--left #search__right {
   line-height: 19px;
   color: #707070;
 }
-header .header--left #search__right::placeholder {
+header .header--left .search__event #search__right::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 18.75px;
   color: #000000;
 }
-header .header--left .location__search {
+header .header--left .search__event .location__search {
   margin-top: 11px;
   padding: 9px 12px 12px 12px;
   border-radius: 0px 8px 8px 0px;
@@ -65,11 +67,9 @@ header .header--left .location__search {
 }
 header .header--right {
   display: flex;
+  justify-content: space-between;
 }
 header .header--right #language__selector {
-  min-width: 49px;
-  min-height: 20px;
-  margin-right: 22px;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
