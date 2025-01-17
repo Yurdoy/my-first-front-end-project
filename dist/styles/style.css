@@ -152,27 +152,17 @@ main .join__meetup--block .meetup__picture--right {
   height: 269px;
   margin: 69px 320px 0px 54px;
 }
-main .events-near__grid {
-  max-width: 1196px;
-  max-height: 1141px;
-  margin-left: 158px;
-  margin-top: 24px;
-}
 main .events-near__grid .block-of-cards .header__block {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 main .events-near__grid .block-of-cards .header__block h2 {
-  max-width: 160px;
-  max-height: 36px;
   font-size: 28px;
   font-weight: 600;
   line-height: 36px;
 }
 main .events-near__grid .block-of-cards .header__block #header__block--events-near--search {
-  min-width: 239.42px;
-  min-width: 44px;
   padding: 11.67px 11.99px 8.33px 12px;
   border-radius: 8px;
   border: none;
@@ -180,9 +170,6 @@ main .events-near__grid .block-of-cards .header__block #header__block--events-ne
   position: relative;
 }
 main .events-near__grid .block-of-cards .header__block a {
-  max-width: 105.61px;
-  max-height: 24px;
-  margin-left: 683px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -196,8 +183,6 @@ main .events-near__grid .block-of-cards .events-card__grid {
   margin-top: 24px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card {
-  max-width: 272px;
-  max-height: 399px;
   background: #ffffff;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card img {
@@ -205,16 +190,11 @@ main .events-near__grid .block-of-cards .events-card__grid .event-one__card img 
   max-height: 153px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card h3 {
-  max-width: 230px;
-  max-height: 48px;
-  margin-top: 12px;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-type {
-  max-width: 256px;
-  margin-top: 8px;
   padding: 13px 0px 13px 0px;
   font-size: 14px;
   font-weight: 500;
@@ -227,7 +207,6 @@ main .events-near__grid .block-of-cards .events-card__grid .event-one__card .eve
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-date img {
   max-width: 20px;
   max-height: 20px;
-  margin-top: 8px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-date p {
   max-width: 177.81px;
@@ -249,12 +228,8 @@ main .events-near__grid .block-of-cards .events-card__grid .event-one__card .eve
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .visitors__quantity img {
   max-width: 20px;
   max-height: 20px;
-  margin-right: 2px;
-  margin-top: 14px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .visitors__quantity p {
-  max-width: 65px;
-  max-height: 24px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -269,12 +244,8 @@ main .events-near__grid .block-of-cards .events-card__grid .event-one__card .eve
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .tickets__price img {
   max-width: 20px;
   max-height: 20px;
-  margin-right: 2px;
-  margin-top: 14px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .tickets__price p {
-  max-width: 33.34px;
-  max-height: 24px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -285,17 +256,11 @@ main .upcoming-online-events__grid .upcoming-events__header--block {
   display: flex;
 }
 main .upcoming-online-events__grid .upcoming-events__header--block h2 {
-  max-width: 333.5px;
-  max-height: 36px;
-  margin: 40px 757px 0px 0px;
   font-size: 28px;
   font-weight: 600;
   line-height: 36px;
 }
 main .upcoming-online-events__grid .upcoming-events__header--block a {
-  max-width: 105.61px;
-  max-height: 24px;
-  margin-top: 50px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
