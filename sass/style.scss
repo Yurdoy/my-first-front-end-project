@@ -107,31 +107,36 @@ header {
 main {
   .join__meetup--block {
     display: flex;
-    width: 1196px;
-    height: 424px;
+    // width: 1196px;
+    // height: 424px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 158px 122px 158px;
+    gap: 40px;
 
     .join__meetup--text-left {
-      width: 600.61px;
-      height: 104px;
-      margin: 98px 0px 0px 158px;
+      // width: 600.61px;
+      // height: 104px;
+      // margin: 98px 0px 0px 158px;
       h2 {
+        padding: 71px 54px 25px 0px;
         font-size: 42px;
         font-weight: 700;
         line-height: 52px;
       }
       p {
-        width: 608.93px;
-        height: 72px;
-        margin: 24.5px 0px 0px 0px;
-        padding-right: 25px;
+        // width: 608.93px;
+        // height: 72px;
+        // margin: 24.5px 0px 0px 0px;
+        padding: 0px 45px 24px 2px;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
       }
       button {
-        width: 125.28px;
-        height: 40px;
-        margin-top: 24px;
+        // width: 125.28px;
+        // height: 40px;
+        // margin-top: 24px;
         padding: 8px 15.8px 8px 16px;
         border-radius: 8px;
         background-color: #00798a;
@@ -145,7 +150,7 @@ main {
     .meetup__picture--right {
       width: 379px;
       height: 269px;
-      margin: 69px 320px 0px 54px;
+      padding: 33px 550px 0px 0px;
     }
   }
   .events-near__grid {
