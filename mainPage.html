@@ -71,18 +71,23 @@
         </div>
       </section>
       <section class="events-near__grid">
-        <div class="block-of-cards">
-          <div class="header__block">
+        <div class="events-near__block">
+          <div class="events-near__block--left">
             <h2>Events near</h2>
             <label for="header__block--events-near--search"></label>
-            <input
+            <div class="events-near__search--input">
+              <input
               type="search"
               id="header__block--events-near--search"
               name="location search in events near"
               placeholder="Events Search"
             />
-            <a href="">See all events</a>
+            <img src="assets/icons/main/eventsNearInputSearch.svg" alt="">
+            </div>
           </div>
+          <a href="">See all events</a>
+        </div>
+        <div class="block-of-cards">
           <div class="events-card__grid">
             <div class="event-one__card">
               <img
