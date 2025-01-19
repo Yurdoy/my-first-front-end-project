@@ -257,6 +257,7 @@ main .events-near__grid .block-of-cards .events-card__grid .event-one__card .eve
 }
 main .upcoming-online-events__grid .upcoming-events__header--block {
   display: flex;
+  justify-content: space-between;
 }
 main .upcoming-online-events__grid .upcoming-events__header--block h2 {
   font-size: 28px;
@@ -269,6 +270,9 @@ main .upcoming-online-events__grid .upcoming-events__header--block a {
   line-height: 24px;
   text-decoration: none;
   color: #00798a;
+}
+main .upcoming-online-events__grid .upcoming-events__card--grid {
+  display: grid;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -273,6 +273,7 @@ main {
   .upcoming-online-events__grid {
     .upcoming-events__header--block {
       display: flex;
+      justify-content: space-between;
       h2 {
         font-size: 28px;
         font-weight: 600;
@@ -285,6 +286,9 @@ main {
         text-decoration: none;
         color: #00798a;
       }
+    }
+    .upcoming-events__card--grid {
+      display: grid;
     }
   }
 }
