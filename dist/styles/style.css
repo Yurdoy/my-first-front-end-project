@@ -175,12 +175,15 @@ main .events-near__grid .events-near__block .events-near__block--left .events-ne
   border-radius: 0px 8px 8px 0px;
   padding: 14px 13px 13px 0px;
 }
-main .events-near__grid .events-near__block .events-near__block--left a {
+main .events-near__grid .events-near__block a {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   text-decoration: none;
   color: #00798a;
+}
+main .events-near__grid .block-of-cards {
+  padding: 24px 0px 40px 0px;
 }
 main .events-near__grid .block-of-cards .header__block {
   display: flex;
@@ -191,22 +194,19 @@ main .events-near__grid .block-of-cards .events-card__grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 36px;
-  margin-top: 24px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card {
   background: #ffffff;
-}
-main .events-near__grid .block-of-cards .events-card__grid .event-one__card img {
-  max-width: 272px;
-  max-height: 153px;
+  padding: 0px 0px 66px 0px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card h3 {
+  padding: 12px 40px 8px 0px;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-type {
-  padding: 13px 0px 13px 0px;
+  padding: 10px 45px 10px 0px;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -216,14 +216,10 @@ main .events-near__grid .block-of-cards .events-card__grid .event-one__card .eve
   display: flex;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-date img {
-  max-width: 20px;
-  max-height: 20px;
+  padding: 2px 6px 0px 0px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-date p {
-  max-width: 177.81px;
-  max-height: 20px;
-  margin-top: 8px;
-  padding-left: 6px;
+  padding: 6px 52px 0px 0px;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -237,24 +233,20 @@ main .events-near__grid .block-of-cards .events-card__grid .event-one__card .eve
   display: flex;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .visitors__quantity img {
-  max-width: 20px;
-  max-height: 20px;
+  padding: 12px 6px 0px 0px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .visitors__quantity p {
+  padding: 12px 16px 0px 0px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   color: #212121;
-  margin-right: 16px;
-  margin-top: 12px;
-  margin-bottom: 74px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .tickets__price {
   display: flex;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .tickets__price img {
-  max-width: 20px;
-  max-height: 20px;
+  padding: 14px 2px 0px 0px;
 }
 main .events-near__grid .block-of-cards .events-card__grid .event-one__card .event-card__low-row .tickets__price p {
   font-size: 16px;
