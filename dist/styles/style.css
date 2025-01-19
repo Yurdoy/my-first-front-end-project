@@ -255,24 +255,21 @@ main .events-near__grid .block-of-cards .events-card__grid .event-one__card .eve
   color: #212121;
   margin-top: 12px;
 }
-main .upcoming-online-events__grid .upcoming-events__header--block {
+main .upcoming-events__header--block {
   display: flex;
   justify-content: space-between;
 }
-main .upcoming-online-events__grid .upcoming-events__header--block h2 {
+main .upcoming-events__header--block h2 {
   font-size: 28px;
   font-weight: 600;
   line-height: 36px;
 }
-main .upcoming-online-events__grid .upcoming-events__header--block a {
+main .upcoming-events__header--block a {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   text-decoration: none;
   color: #00798a;
-}
-main .upcoming-online-events__grid .upcoming-events__card--grid {
-  display: grid;
 }
 
 /*# sourceMappingURL=style.css.map */
