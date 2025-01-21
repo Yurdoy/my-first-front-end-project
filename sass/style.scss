@@ -293,4 +293,33 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 0px 158px 122px 158px;
+  .join-meetup__signup-membership--left-block {
+    padding: 36px 0px 36px 56px;
+    background: #97cad114;
+    h2 {
+      padding: 0px 0px 16px 0px;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 36px;
+    }
+    p {
+      padding: 0px 74px 16px 0px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    button {
+      padding: 6px 67px 6px 67px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #ffffff;
+      background: #e32359;
+    }
+  }
+  img {
+    padding: 20px 56px 20px 0px;
+    background: #97cad114;
+  }
 }
