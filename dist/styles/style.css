@@ -354,7 +354,7 @@ main h2 {
   font-weight: 600;
   line-height: 36px;
 }
-main p {
+main .popular-cities-on-meetup__block--paragraph {
   padding: 0px 0px 28px 0px;
   font-size: 16px;
   font-weight: 400;
@@ -363,6 +363,7 @@ main p {
 }
 main .popular-cities--block {
   display: flex;
+  gap: 41.75px;
 }
 main .popular-cities--block .city-picture--city-name {
   display: flex;
