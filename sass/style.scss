@@ -382,6 +382,7 @@ main {
   .popular-cities--block {
     display: flex;
     gap: 41.75px;
+    padding-bottom: 64px;
     .city-picture--city-name {
       display: flex;
       flex-direction: column;
@@ -394,6 +395,29 @@ main {
       line-height: 28px;
       text-decoration: none;
       color: #212121;
+    }
+  }
+  .how-meetup-works_block {
+    h2 {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 36px;
+      padding-bottom: 24px;
+    }
+    .discover-events__start-group--block {
+      .discover-events--box {
+        display: flex;
+        padding: 0px 0px 0px 0px;
+        border-radius: 8px;
+        background-color: #97cad114;
+        .discover-events--box__left--icon {
+          img {
+            padding: 32px 24px 24px 24px;
+          }
+        }
+      }
+      .discover-events--box__right {
+      }
     }
   }
 }
