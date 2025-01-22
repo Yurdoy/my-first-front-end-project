@@ -276,7 +276,7 @@ main .upcoming-events__header--block a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 158px 64px 158px;
+  padding: 0px 154px 64px 158px;
 }
 .join-meetup__signup-membership--block .join-meetup__signup-membership--left-block {
   padding: 36px 0px 36px 56px;
@@ -289,7 +289,7 @@ main .upcoming-events__header--block a {
   line-height: 36px;
 }
 .join-meetup__signup-membership--block .join-meetup__signup-membership--left-block p {
-  padding: 0px 74px 16px 0px;
+  padding: 0px 117px 16px 0px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -306,7 +306,7 @@ main .upcoming-events__header--block a {
 }
 .join-meetup__signup-membership--block img {
   padding: 20px 56px 20px 0px;
-  background: rgba(151, 202, 209, 0.0784313725);
+  background-color: rgba(151, 202, 209, 0.0784313725);
 }
 
 .explore-top-categories__block {
@@ -320,6 +320,10 @@ main .upcoming-events__header--block a {
 }
 .explore-top-categories__block .explore-top-categories__links--block {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  gap: 16px;
 }
 .explore-top-categories__block .explore-top-categories__links--block .explore-top-categories__links {
   display: flex;
