@@ -287,79 +287,112 @@ main {
       color: #00798a;
     }
   }
-}
-.join-meetup__signup-membership--block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 154px 64px 158px;
-  .join-meetup__signup-membership--left-block {
-    padding: 36px 0px 36px 56px;
-    background: #97cad114;
+
+  .join-meetup__signup-membership--block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 154px 64px 158px;
+    .join-meetup__signup-membership--left-block {
+      padding: 36px 0px 36px 56px;
+      background: #97cad114;
+      h2 {
+        padding: 0px 0px 16px 0px;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+      }
+      p {
+        padding: 0px 117px 16px 0px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      button {
+        padding: 6px 67px 6px 67px;
+        border-radius: 8px;
+        border-color: transparent;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #ffffff;
+        background: #e32359;
+      }
+    }
+    img {
+      padding: 20px 56px 20px 0px;
+      background-color: #97cad114;
+    }
+  }
+
+  .explore-top-categories__block {
+    padding: 0px 158px 64px 158px;
     h2 {
-      padding: 0px 0px 16px 0px;
+      padding-bottom: 24px;
       font-size: 28px;
       font-weight: 600;
       line-height: 36px;
     }
-    p {
-      padding: 0px 117px 16px 0px;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-    }
-    button {
-      padding: 6px 67px 6px 67px;
-      border-radius: 8px;
-      border-color: transparent;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 24px;
-      color: #ffffff;
-      background: #e32359;
+    .explore-top-categories__links--block {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-content: center;
+      gap: 16px;
+      .explore-top-categories__links {
+        display: flex;
+        padding: 6px 0px 6px 0px;
+        border-radius: 8px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background-color: #97cad114;
+        .explore-top-categories__links--box {
+          padding: 22px 57px 6px 57px;
+        }
+        .explore-top-categories__links--box__paragraphs {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+        }
+      }
     }
   }
-  img {
-    padding: 20px 56px 20px 0px;
-    background-color: #97cad114;
+  .popular-cities-on-meetup__block {
+    padding: 0px 154px 64px 158px;
   }
-}
-
-.explore-top-categories__block {
-  padding: 0px 158px 122px 158px;
   h2 {
-    padding-bottom: 24px;
+    padding: 0px 0px 16px 0px;
     font-size: 28px;
     font-weight: 600;
     line-height: 36px;
   }
-  .explore-top-categories__links--block {
+  p {
+    padding: 0px 0px 28px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #707070;
+  }
+  .popular-cities--block {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    gap: 16px;
-    .explore-top-categories__links {
+    .city-picture--city-name {
       display: flex;
-      padding: 6px 0px 6px 0px;
-      border-radius: 8px;
       flex-direction: column;
-      flex-wrap: nowrap;
-      align-content: center;
-      justify-content: center;
       align-items: center;
-      background-color: #97cad114;
-      .explore-top-categories__links--box {
-        padding: 22px 57px 6px 57px;
-      }
-      .explore-top-categories__links--box__paragraphs {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-      }
+    }
+    a {
+      padding-top: 24px;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 28px;
+      text-decoration: none;
+      color: #212121;
     }
   }
 }
