@@ -292,7 +292,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 158px 64px 158px;
+  padding: 0px 154px 64px 158px;
   .join-meetup__signup-membership--left-block {
     padding: 36px 0px 36px 56px;
     background: #97cad114;
@@ -303,7 +303,7 @@ main {
       line-height: 36px;
     }
     p {
-      padding: 0px 74px 16px 0px;
+      padding: 0px 117px 16px 0px;
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
@@ -320,7 +320,7 @@ main {
     }
   }
   img {
-    padding: 20px 56px 20px 0px;
+    padding: 20px 56px 20px 0px
     background: #97cad114;
   }
 }
@@ -335,6 +335,10 @@ main {
   }
   .explore-top-categories__links--block {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    gap: 16px;
     .explore-top-categories__links {
       display: flex;
       padding: 6px 0px 6px 0px;
