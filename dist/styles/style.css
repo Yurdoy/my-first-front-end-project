@@ -462,7 +462,7 @@ footer {
 }
 footer .footer__main-block .upper-block__create-your-own-meetup-group {
   display: flex;
-  padding: 24px 196px 24px 196px;
+  padding: 24px 196px 0px 196px;
   align-content: center;
   align-items: flex-start;
 }
@@ -482,6 +482,15 @@ footer .footer__main-block .upper-block__create-your-own-meetup-group .get-start
   background-color: transparent;
   border-radius: 6px;
   border: 2px solid rgb(255, 255, 255);
+}
+footer .footer__main-block hr {
+  margin: 0px 196px 0px 196px;
+  border: none;
+  height: 1px;
+  background-color: rgb(112, 112, 112);
+}
+footer .footer__main-block .site-map__block {
+  padding: 24px 196px 24px 196px;
 }
 
 /*# sourceMappingURL=style.css.map */

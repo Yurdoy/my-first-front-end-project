@@ -493,10 +493,9 @@ footer {
     // padding: 16px 196px 0px 196;
     .upper-block__create-your-own-meetup-group {
       display: flex;
-      padding: 24px 196px 24px 196px;
+      padding: 24px 196px 0px 196px;
       align-content: center;
       align-items: flex-start;
-
       .create-groupe__header {
         padding: 10px 16px 35px 0px;
         font-size: 16px;
@@ -514,6 +513,15 @@ footer {
         border-radius: 6px;
         border: 2px solid rgba(255, 255, 255, 1);
       }
+    }
+    hr {
+      margin: 0px 196px 0px 196px;
+      border: none;
+      height: 1px;
+      background-color: rgba(112, 112, 112, 1);
+    }
+    .site-map__block {
+      padding: 24px 196px 24px 196px;
     }
   }
 }
