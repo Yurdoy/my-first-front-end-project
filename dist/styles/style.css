@@ -492,5 +492,28 @@ footer .footer__main-block hr {
 footer .footer__main-block .site-map__block {
   padding: 24px 196px 24px 196px;
 }
+footer .footer__main-block .site-map__block .account__discover--meetup__blocks {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__main-block .site-map__block .account__discover--meetup__blocks .your-account-column {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 252px 12px 0px;
+  gap: 7px;
+}
+footer .footer__main-block .site-map__block .account__discover--meetup__blocks h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(246, 247, 248);
+}
+footer .footer__main-block .site-map__block .account__discover--meetup__blocks a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  color: rgb(197, 196, 196);
+}
 
 /*# sourceMappingURL=style.css.map */
