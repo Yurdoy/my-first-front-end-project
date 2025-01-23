@@ -64,7 +64,7 @@ header .header--left .search__event .location__search {
   padding: 10px 10px 10px 10px;
   border-radius: 0px 8px 8px 0px;
   background-color: #f65858;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #f65858;
 }
 header .header--left .search__event .location__search img {
   width: 20px;
@@ -154,9 +154,10 @@ main .events-near__grid .events-near__block {
 }
 main .events-near__grid .events-near__block .events-near__block--left {
   display: flex;
+  align-items: center;
   gap: 8px;
 }
-main .events-near__grid .events-near__block .events-near__block--left h2 {
+main .events-near__grid .events-near__block .events-near__block--left .events-near__block--header {
   font-size: 28px;
   font-weight: 600;
   line-height: 36px;
@@ -348,7 +349,7 @@ main .explore-top-categories__block .explore-top-categories__links--block .explo
 main .popular-cities-on-meetup__block {
   padding: 0px 154px 64px 158px;
 }
-main h2 {
+main .popular-cities-on-meetup__header {
   padding: 0px 0px 16px 0px;
   font-size: 28px;
   font-weight: 600;
@@ -536,10 +537,30 @@ footer .footer__main-block .follow-us__block .follow-us__block--left .follow-us_
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  padding-bottom: 24px;
 }
 footer .footer__main-block .follow-us__block .follow-us__block--right {
   display: flex;
   gap: 22px;
+}
+footer .footer__main-block .meetup__bottom--info {
+  display: flex;
+  justify-content: start;
+  padding: 0px 196px 40px 196px;
+  gap: 24px;
+}
+footer .footer__main-block span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+}
+footer .footer__main-block a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(197, 196, 196);
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

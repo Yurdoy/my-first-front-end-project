@@ -55,7 +55,7 @@ header {
         padding: 10px 10px 10px 10px;
         border-radius: 0px 8px 8px 0px;
         background-color: #f65858;
-        border: 1px solid #d9d9d9;
+        border: 1px solid #f65858;
         img {
           width: 20px;
           height: 20px;
@@ -150,8 +150,9 @@ main {
       align-items: center;
       .events-near__block--left {
         display: flex;
+        align-items: center;
         gap: 8px;
-        h2 {
+        .events-near__block--header {
           font-size: 28px;
           font-weight: 600;
           line-height: 36px;
@@ -366,7 +367,7 @@ main {
   .popular-cities-on-meetup__block {
     padding: 0px 154px 64px 158px;
   }
-  h2 {
+  .popular-cities-on-meetup__header {
     padding: 0px 0px 16px 0px;
     font-size: 28px;
     font-weight: 600;
@@ -565,12 +566,32 @@ footer {
           display: flex;
           justify-content: space-between;
           gap: 32px;
+          padding-bottom: 24px;
         }
       }
       .follow-us__block--right {
         display: flex;
         gap: 22px;
       }
+    }
+    .meetup__bottom--info {
+      display: flex;
+      justify-content: start;
+      padding: 0px 196px 40px 196px;
+      gap: 24px;
+    }
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      color: rgba(255, 255, 255, 1);
+    }
+    a {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      color: rgba(197, 196, 196, 1);
+      text-decoration: none;
     }
   }
 }
