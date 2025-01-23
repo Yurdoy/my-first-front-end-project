@@ -419,5 +419,8 @@ main .how-meetup-works_block .discover-events__start-group--block .discover-even
   line-height: 24px;
   color: rgb(0, 121, 138);
 }
+main .friendship-meetup .friendship-meetup__header {
+  padding: 64px 0px 16px 0px;
+}
 
 /*# sourceMappingURL=style.css.map */
