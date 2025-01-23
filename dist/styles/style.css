@@ -421,6 +421,16 @@ main .how-meetup-works_block .discover-events__start-group--block .discover-even
 }
 main .friendship-meetup .friendship-meetup__header {
   padding: 64px 0px 16px 0px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+main .friendship-meetup .friendship-meetup__paragraph {
+  padding: 0px 320px 28px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(112, 112, 112);
 }
 
 /*# sourceMappingURL=style.css.map */
