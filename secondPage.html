@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Meetup</title>
+  </head>
+  <body>
+    <header>
+      <div class="header--left">
+        <div class="meetup__logo">
+            <a href="mainPage.html">
+                <img src="assets/images/navbar/meetupNavbar.svg" alt="Meetup Logo" />
+              </a>
+        </div>
+        <div class="search__event">
+          <label for="search__left"></label>
+          <input
+            type="search"
+            id="search__left"
+            name="query"
+            placeholder="Search events"
+          />
+          <label for="search__right"></label>
+          <input
+            type="search"
+            id="search__right"
+            name="location-search"
+            placeholder="Search Location"
+          />
+          <button class="location__search">
+            <img src="assets/icons/navbar/loupeLocationSearchIcon.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <div class="header--right">
+        <div class="language--dropdown-selector">
+          <label for="language__selector"
+            ><img
+              src="assets/icons/navbar/globeLangueageSelectorIcon.svg"
+              alt="Globe Icon for language selector"
+          /></label>
+          <select name="languageSelector" id="language__selector">
+            <option value="en">English</option>
+          </select>
+        </div>
+        <button class="navbar__logIn--btn">Log in</button>
+        <button class="navbar__signUp--btn">Sign up</button>
+    </header>
+
+    <footer>
+      <div class="footer__main-block">
+        <div class="upper-block__create-your-own-meetup-group">
+          <h3 class="create-groupe__header">Create your own Meetup group.</h3>
+          <button class="get-started__btn">Get Started</button>
+        </div>
+        <hr>
+        <div class="site-map__block">
+          <div class="account__discover--meetup__blocks">
+            <div class="your-account-column">
+            <h3>Your Account</h3>
+            <a href="">Sign up</a>
+            <a href="">Log in</a>
+            <a href="">Help</a>
+            <a href="">Become an Affiliate</a>
+          </div>
+          <div class="your-account-column">
+            <h3>Discover</h3>
+            <a href="">Groups</a>
+            <a href="">Calendar</a>
+            <a href="">Cities</a>
+            <a href="">Online Events</a>
+            <a href="">Local Guides</a>
+            <a href="">Make Friends</a>
+          </div>
+          <div class="your-account-column">
+            <h3>Meetup</h3>
+            <a href="">About</a>
+            <a href="">Blog</a>
+            <a href="">Meetup Pro</a>
+            <a href="">Careers</a>
+            <a href="">Apps</a>
+            <a href="">Podcast</a>
+          </div>
+          </div>
+        </div>
+        <div class="follow-us__block">
+          <div class="follow-us__block--left">
+            <h3 class="follow-us__block--left__header">Follow us</h3>
+            <div class="follow-us__block--left__icons">
+              <a href=""><img src="assets/icons/footer/fb-icon.svg" alt="Facebook icon"></a>
+              <a href=""><img src="assets/icons/footer/twit-icon.svg" alt="Twitter icon"></a>
+              <a href=""><img src="assets/icons/footer/yt-icon.svg" alt="Youtube icon"></a>
+              <a href=""><img src="assets/icons/footer/insta-icon.svg" alt="Instagram icon"></a>
+              <a href=""><img src="assets/icons/footer/tiktok-icon.svg" alt="Tik tok icon"></a>
+            </div>
+          </div>
+          <div class="follow-us__block--right">
+            <a href=""><img src="assets/images/footer/playmarket.svg" alt="Google playmarket link"></a>
+            <a href=""><img src="assets/images/footer/appstore.svg" alt="Appstore link"></a>
+          </div>
+        </div>
+        <div class="meetup__bottom--info">
+          <span>© 2024 Meetup</span>
+          <a href="">Terms of Service</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Do Not Sell or Share My Personal Data</a>
+          <a href="">Cookie Policy</a>
+          <a href="">Help</a>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
+
