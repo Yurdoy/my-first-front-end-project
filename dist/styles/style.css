@@ -432,5 +432,25 @@ main .friendship-meetup .friendship-meetup__paragraph {
   line-height: 24px;
   color: rgb(112, 112, 112);
 }
+main .friendship-meetup .friendship-meetup__card .friendship-meetup__card--header {
+  padding: 24px 83.6px 12px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+main .friendship-meetup .friendship-meetup__card .friendship-meetup__card--paragraph {
+  padding: 0px 5.5px 16px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(112, 112, 112);
+}
+main .friendship-meetup .friendship-meetup__card .friendship-meetup__card--anchor {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(0, 121, 138);
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */
