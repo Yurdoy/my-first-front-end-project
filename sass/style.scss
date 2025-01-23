@@ -547,6 +547,9 @@ footer {
       }
     }
     .follow-us__block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       padding: 24px 196px 24px 196px;
       .follow-us__block--left {
         display: flex;
@@ -563,6 +566,10 @@ footer {
           justify-content: space-between;
           gap: 32px;
         }
+      }
+      .follow-us__block--right {
+        display: flex;
+        gap: 22px;
       }
     }
   }

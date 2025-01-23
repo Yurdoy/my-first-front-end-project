@@ -516,6 +516,9 @@ footer .footer__main-block .site-map__block .account__discover--meetup__blocks a
   color: rgb(197, 196, 196);
 }
 footer .footer__main-block .follow-us__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 24px 196px 24px 196px;
 }
 footer .footer__main-block .follow-us__block .follow-us__block--left {
@@ -533,6 +536,10 @@ footer .footer__main-block .follow-us__block .follow-us__block--left .follow-us_
   display: flex;
   justify-content: space-between;
   gap: 32px;
+}
+footer .footer__main-block .follow-us__block .follow-us__block--right {
+  display: flex;
+  gap: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */
