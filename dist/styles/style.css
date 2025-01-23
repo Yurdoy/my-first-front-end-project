@@ -515,5 +515,24 @@ footer .footer__main-block .site-map__block .account__discover--meetup__blocks a
   text-decoration: none;
   color: rgb(197, 196, 196);
 }
+footer .footer__main-block .follow-us__block {
+  padding: 24px 196px 24px 196px;
+}
+footer .footer__main-block .follow-us__block .follow-us__block--left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+footer .footer__main-block .follow-us__block .follow-us__block--left .follow-us__block--left__header {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(246, 247, 248);
+}
+footer .footer__main-block .follow-us__block .follow-us__block--left .follow-us__block--left__icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
 
 /*# sourceMappingURL=style.css.map */
