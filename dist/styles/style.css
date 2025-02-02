@@ -615,10 +615,11 @@ footer .footer__main-block a {
   background-color: rgb(217, 217, 217);
 }
 .events-filtration__block .events-filtration__block--event-box {
-  padding: 16px 0px 40px 0px;
+  padding: 16px 750px 13px 0px;
 }
 .events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page {
   display: flex;
+  align-items: flex-start;
 }
 .events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page .event-info {
   padding-left: 12px;
@@ -631,16 +632,40 @@ footer .footer__main-block a {
   color: rgb(124, 111, 80);
 }
 .events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page .event-info .event-heading__second-page {
-  padding-bottom: 4px;
+  padding: 0px 70px 4px 0px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
 }
 .events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page .event-info .event-type__second-page {
+  padding-bottom: 48px;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   color: rgb(112, 112, 112);
+}
+.events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page .event-info .event-three__bottom {
+  display: flex;
+}
+.events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page .event-info .event-three__bottom .event-attendees__second-page {
+  padding-right: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(112, 112, 112);
+}
+.events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page .event-info .event-three__bottom .event-three__dot--second-page {
+  padding-right: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(112, 112, 112);
+}
+.events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page .event-info .event-three__bottom .spots-left {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(227, 35, 89);
 }
 
 /*# sourceMappingURL=style.css.map */

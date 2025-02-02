@@ -646,10 +646,11 @@ footer {
     background-color: rgba(217, 217, 217, 1);
   }
   .events-filtration__block--event-box {
-    padding: 16px 0px 40px 0px;
+    padding: 16px 750px 13px 0px;
     .events-filtration__block--event-box__info {
       .event-box__second-page {
         display: flex;
+        align-items: flex-start;
         .event-info {
           padding-left: 12px;
           .event-date__second-page {
@@ -660,16 +661,40 @@ footer {
             color: rgba(124, 111, 80, 1);
           }
           .event-heading__second-page {
-            padding-bottom: 4px;
+            padding: 0px 70px 4px 0px;
             font-size: 16px;
             font-weight: 500;
             line-height: 24px;
           }
           .event-type__second-page {
+            padding-bottom: 48px;
             font-size: 14px;
             font-weight: 500;
             line-height: 20px;
             color: rgba(112, 112, 112, 1);
+          }
+          .event-three__bottom {
+            display: flex;
+            .event-attendees__second-page {
+              padding-right: 6px;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              color: rgba(112, 112, 112, 1);
+            }
+            .event-three__dot--second-page {
+              padding-right: 6px;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              color: rgba(112, 112, 112, 1);
+            }
+            .spots-left {
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              color: rgba(227, 35, 89, 1);
+            }
           }
         }
       }
