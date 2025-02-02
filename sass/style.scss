@@ -645,4 +645,34 @@ footer {
     height: 1px;
     background-color: rgba(217, 217, 217, 1);
   }
+  .events-filtration__block--event-box {
+    padding: 16px 0px 40px 0px;
+    .events-filtration__block--event-box__info {
+      .event-box__second-page {
+        display: flex;
+        .event-info {
+          padding-left: 12px;
+          .event-date__second-page {
+            padding: 4px 0px 4px 0px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            color: rgba(124, 111, 80, 1);
+          }
+          .event-heading__second-page {
+            padding-bottom: 4px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+          }
+          .event-type__second-page {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            color: rgba(112, 112, 112, 1);
+          }
+        }
+      }
+    }
+  }
 }
