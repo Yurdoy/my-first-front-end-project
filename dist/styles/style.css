@@ -644,6 +644,13 @@ footer .footer__main-block a {
   line-height: 20px;
   color: rgb(112, 112, 112);
 }
+.events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page .event-info .event-attendees__second-page {
+  padding-right: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(112, 112, 112);
+}
 .events-filtration__block .events-filtration__block--event-box .events-filtration__block--event-box__info .event-box__second-page .event-info .event-three__bottom {
   display: flex;
 }
